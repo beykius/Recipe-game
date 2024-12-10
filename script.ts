@@ -1,4 +1,9 @@
-const dishes = [
+interface RecipeDishes {
+    dish: string;
+    ingredients: string[];
+}
+
+const dishes:RecipeDishes[] = [
     {
         "dish": "Toast 🍞",
         "ingredients": ["🍞", "🧈"]
